@@ -1,7 +1,7 @@
 # lines-count
  基于node的代码行数统计
 
-# Example
+# Example for app.js
 ```js
 const stat = require('./libs')
 
@@ -13,4 +13,9 @@ stat('E:/workspace/vue-admin', {
         '.postcssrc.js',
     ],
 })
+```
+
+# Run serve
+```
+node app.js
 ```
