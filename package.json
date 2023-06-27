@@ -1,0 +1,8 @@
+{
+  "name": "line-count",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "count": "node app"
+  }
+}

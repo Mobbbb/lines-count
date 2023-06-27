@@ -1,10 +1,11 @@
 const stat = require('./libs')
 
-stat('E:/workspace/vue-admin', {
-    extnames: ['vue', 'js', 'ts', 'css', 'sass', 'less', 'html'], // 后缀名
-    ingoreDirs: ['.git', 'dist', 'build', 'node_modules', '/src/mock'], // 忽略目录
-    ingoreFiles: [ // 忽略文件
+stat('E:/workspace/sourcetree/message-board', {
+    extnames: ['vue', 'js', 'ts', 'css', 'sass', 'less', 'html'], // 统计的文件后缀名
+    ingoreDirs: ['.git', 'dist', 'build', 'node_modules'], // 忽略的目录列表
+    ingoreFiles: [ // 忽略的文件列表
         '.eslintrc.js', 
         '.postcssrc.js',
+        'mock.js',
     ],
 })

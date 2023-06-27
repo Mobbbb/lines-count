@@ -72,6 +72,7 @@ async function stat(rootPath, { extnames = [], ingoreDirs = [], ingoreFiles = []
     }
 
     function indexOfArr(arr, str) {
+        str = str.toString()
         let flag = false
         for (let i = 0; i < arr.length; i++) {
             if (str.indexOf(arr[i]) > -1) {
